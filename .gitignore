@@ -1,0 +1,32 @@
+# build products
+obj/
+*.o
+*.mod
+pp2d-*
+!pp2d.inc
+
+# editor backups
+*~
+
+# hand-made source snapshots (git history replaces these)
+*.pre_*
+*.orig
+*.v[0-9]*_*
+*.v1
+
+# run output
+\#gmv/
+\#avs/
+\#film/
+\#adc/
+\#points/
+\#ns/
+\#data/#DX*
+\#data/PP2D.ERR
+\#data/PP2D.PRT
+\#data/pp2d.out
+run.stdout
+\#data/#WEIGHTS
+\#data/PP2D.SYS
+\#data/PP2D.TRC
+\#*#
